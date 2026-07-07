@@ -1,0 +1,193 @@
+# 📊 Week2-Data-Analysis-EDA-Dashboard
+
+## Overview
+
+This project was completed as part of the Week 2 Data Science Internship task. The objective was to perform Data Cleaning, Data Preprocessing, Exploratory Data Analysis (EDA), Data Visualization, and build an Interactive Dashboard using Streamlit.
+
+The dataset used in this project is the **Netflix Movies and TV Shows Dataset**.
+
+---
+
+## Objectives
+
+- Load and analyze a real-world dataset.
+- Clean and preprocess the data.
+- Perform Exploratory Data Analysis (EDA).
+- Create meaningful visualizations.
+- Build an interactive dashboard using Streamlit.
+- Prepare the dataset for future Machine Learning tasks.
+
+---
+
+## Technologies Used
+
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Streamlit
+- Jupyter Notebook
+- VS Code
+- Git & GitHub
+
+---
+
+## Project Structure
+
+```
+Week2-Data-Analysis-EDA-Dashboard/
+│
+├── data/
+│   ├── raw_dataset.csv
+│   └── cleaned_dataset.csv
+│
+├── notebooks/
+│   └── eda_analysis.ipynb
+│
+├── visualizations/
+│
+├── screenshots/
+│
+├── app.py
+├── requirements.txt
+├── README.md
+```
+
+---
+
+## Dataset
+
+Dataset: Netflix Movies and TV Shows
+
+Features include:
+
+- Show ID
+- Type
+- Title
+- Director
+- Cast
+- Country
+- Date Added
+- Release Year
+- Rating
+- Duration
+- Genre
+- Description
+
+---
+
+## Data Cleaning
+
+The following preprocessing steps were performed:
+
+- Imported dataset
+- Checked dataset information
+- Checked data types
+- Handled missing values
+- Removed duplicate records
+- Renamed columns (if required)
+- Generated summary statistics
+- Saved cleaned dataset
+
+---
+
+## Exploratory Data Analysis (EDA)
+
+Performed analysis including:
+
+- Dataset shape
+- Missing value analysis
+- Most frequent categories
+- Average values of numerical columns
+- Correlation analysis
+- Distribution analysis
+- GroupBy operations
+- Statistical summaries
+
+---
+
+## Data Visualizations
+
+The project includes the following visualizations:
+
+- Bar Chart
+- Line Chart
+- Pie Chart
+- Histogram
+- Box Plot
+- Scatter Plot
+- Correlation Heatmap
+- Count Plot
+
+Each visualization contains appropriate titles and labels.
+
+---
+
+## Streamlit Dashboard Features
+
+The dashboard includes:
+
+- Home Page
+- Dataset Preview
+- Data Cleaning Summary
+- Statistical Analysis
+- Interactive Data Filtering
+- Data Visualizations
+- Key Insights
+- Download Cleaned Dataset
+
+---
+
+## Key Insights
+
+- Movies are more common than TV Shows.
+- Most Netflix content was released after 2015.
+- TV-MA is the most frequent content rating.
+- The United States contributes the highest number of titles.
+- Drama is one of the most common genres on Netflix.
+
+---
+
+## Installation
+
+Clone the repository:
+
+```bash
+git clone <repository_link>
+```
+
+Install required packages:
+
+```bash
+pip install -r requirements.txt
+```
+
+Run the Streamlit application:
+
+```bash
+streamlit run app.py
+```
+
+---
+
+## Requirements
+
+The project requires the following libraries:
+
+- pandas
+- numpy
+- matplotlib
+- seaborn
+- streamlit
+- jupyter
+
+---
+
+## Author
+
+**Iqra**
+
+Week 2 Internship Project
+
+Data Analysis • Data Preprocessing • Exploratory Data Analysis • Streamlit Dashboard
